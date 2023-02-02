@@ -1,0 +1,36 @@
+#author-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  width: 300px;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: lightblue;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+#output {
+  border: 1px solid lightgray;
+  padding: 1em;
+  margin-top: 1em;
+}
+
